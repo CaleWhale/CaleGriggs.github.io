@@ -4,7 +4,7 @@
 
 ### [Farkle<sub><sub>link</sub></sub>](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
-```C++
+```cpp
 #include "Player.h"
 #include "Game.h"
 
