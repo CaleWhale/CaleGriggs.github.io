@@ -5,18 +5,16 @@
 ### [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
 ```
-void Game::RunGame() {
-	srand((unsigned int)time(0));				// Seed for random number generation
-	bool gameOver = false;
-	int numPlayers = 0, winningScore = 10000, endGame = -1;
-	unsigned int  turn = 0;
+#include "Player.h"
+#include "Game.h"
 
-	cout << "=============================================\n============= Welcome to Farkle =============\n=============================================\n";
-	cout << "\n\nHow many players?" << endl << endl;
-	cin >> numPlayers;
- 
- 
- .......
+int main() 
+{
+	Game game;
+	game.RunGame();
+
+	return 0;
+}
 ```
 This artifact is a game of Farkel, a dice rolling game where one or more players attempt to score a certain number of points. Each player takes turns rolling six, six-sided dice seeking either ones, fives, or three of a kind groups that add points to their score. The first player to reach the winning score wins. This artifact was originally created as the final project of my IT 312 class in August of 2020. 
  
@@ -32,7 +30,50 @@ One of the biggest issues I came across was while I was attempting to fix the pr
 
 ### [Databases](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Database)
 
+```
+from pymongo import MongoClient
+from bson.objectid import ObjectId
 
+
+class Cars(object):
+    """ CRUD operations for Cars collection in MongoDB """
+    def __init__(self):
+        # Initializing the MongoClient. This helps to
+        # access the MongoDB databases and collections.
+        self.client = MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True)
+        self.database = self.client['Cars']
+        # Complete this create method to implement the C in CRUD.
+
+    def create(self, data):
+        """CREATE STUFF"""
+        if data is not None:
+            self.database.Cars.insert_one(data)  # data should be dictionary
+            return True
+        else:
+            raise Exception("Nothing to save, because data parameter is empty")
+   
+    def read(self, data):
+        """READ STUFF"""    
+        if data is not None: 
+            return self.database.Cars.find(data,{"_id":False}) # data should be dictionary
+        
+        else: 
+            raise Exception("Nothing was found because data parameter is empty")
+
+    def update(self, data, update):
+        """UPDATE STUFF"""
+        if data is not None:
+            return self.database.Cars.replace_one(data, update)
+        else:
+            raise Exception("Nothing was found because data parameter is empty")
+
+    def delete(self, data):
+        """DELETE STUFF"""
+        if data is not None:
+            return self.database.Cars.delete_many(data)
+        else:
+            raise Exception("Nothing was found becasue data paramete is empty")
+```
 This artifact is a MongoDB interface that uses Python and HTML. It takes information from a database and displays it in a table format that the user can sort through by a couple of dropdown menus. The user is also able to add an entry to the database through the interface. This artifact was originally created as the final project of my CS 340 class in February of 2021. 
 
 The reason I chose this artifact is because I think it showcases my ability to create a program that correctly interfaces with a database. The program connects to a MongoDB database, retrieves the desired information, displays the information clearly to the user, and allows the user to easily search through and manipulate the data. The enhancement allowed for the creation of new entries into the database, as well as sorting through the data within the browser application. The objective I had planned for enhancing this project was to make a create a MongoDB interface that allows users to access and edit a database from their browser.
