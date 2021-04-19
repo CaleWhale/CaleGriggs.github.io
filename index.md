@@ -28,7 +28,7 @@ I fixed the scoring system to follow the rules more accurately. Before, the play
 
 One of the biggest issues I came across was while I was attempting to fix the problems with calculating point dice after rerolling. I was struggling to figure out a way to determine when all dice had become point dice while also trying to accurately calculate the score for that roll. My problem stemmed from having the player choose which dice they want to reroll. I was essentially throwing out the numbers being input by the player. To fix the problem, I simply changed the prompt to ask the user which dice they would like to keep. This allowed me to save the old dice and score them accurately, then reroll the rest. One thing I learned is that I tend to get hung up on trying to find the most efficient solution to a problem and I end up wasting a lot of time. But I’ve found that if I just get the program to work, even if it’s not very elegant, I’ll usually be able to come back with a better solution later on.
 
-### [Databases](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Database)
+### [Databases<sub><sub>link</sub></sub>](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Database)
 
 ```python
 from pymongo import MongoClient
