@@ -1,5 +1,8 @@
 ### Self-Assessment
 
+
+These artifacts showcase my ability to create complex programs, interface with databases, control and manipulate data, and implement industry-standard software designs. The Farkel game demonstrates my skills in algorithm implementation and software design. The program accounts for multiple player objects to store names and points for each player and also calculates each way the player(s) can score points or fail to score points. The database interface program connects to a MongoDB database, retrieves the desired information, displays the information clearly to the user, and allows the user to easily search through and manipulate the data from their web browser. Both of these artifacts implement object-oriented design practices and accomplish their respective goals.
+
 ### [Code Review<sub><sub>link</sub></sub>]()
 
 ### [Farkle<sub><sub>link</sub></sub>](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
