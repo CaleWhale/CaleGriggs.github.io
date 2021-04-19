@@ -2,9 +2,9 @@
 
 ### [Code Review]()
 
-### [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle) ###### link
+### [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
-```
+```C++
 #include "Player.h"
 #include "Game.h"
 
@@ -30,7 +30,7 @@ One of the biggest issues I came across was while I was attempting to fix the pr
 
 ### [Databases](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Database)
 
-```
+```python
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
