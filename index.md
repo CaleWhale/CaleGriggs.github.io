@@ -2,7 +2,7 @@
 
 ### [Code Review]()
 
-### [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
+### [Farkle<sub>link</sub>](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
 ```C++
 #include "Player.h"
