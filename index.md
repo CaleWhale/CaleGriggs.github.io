@@ -4,7 +4,7 @@
 
 ### [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
-'''
+```
 void Game::RunGame() {
 	srand((unsigned int)time(0));				// Seed for random number generation
 	bool gameOver = false;
@@ -17,7 +17,7 @@ void Game::RunGame() {
  
  
  .......
-'''
+```
 This artifact is a game of Farkel, a dice rolling game where one or more players attempt to score a certain number of points. Each player takes turns rolling six, six-sided dice seeking either ones, fives, or three of a kind groups that add points to their score. The first player to reach the winning score wins. This artifact was originally created as the final project of my IT 312 class in August of 2020. 
  
 The reason I chose this artifact is because I think it showcases my ability to create a complex, functioning program. The program has to account for multiple player objects to store names and points for each player. It also needs to account for each way the player can score points or fail to score points. The artifact, I feel, is a good demonstration of my ability to implement various skills and techniques to accomplish the goals dictated by the ruleset of the game. Furthermore, I think that by accurately calculating a dice game like Farkel, I have also demonstrated my ability to program solutions to solve logic problems. 
