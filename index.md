@@ -27,8 +27,8 @@ For more details see [GitHub Flavored Markdown.](https://guides.github.com/featu
 
 ## Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in you [repository settings.]() The name of this theme is saved in the Jekyll _config.yml configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in you [repository settings.]() The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-##Support or contact
+## Support or contact
 
 Haveing trouble with Pages? Check out our [documentation]() or [contact support]() and we'll help you sort it out.
