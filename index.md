@@ -1,37 +1,8 @@
-## Welcom to GitHub Pages
+# CS 499 Cale Griggs
 
-You can use the [editor on GitHub](https://github.com/CaleGriggs/CaleGriggs.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Mardown files.
+## Code Review
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in you Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-**Bold and _Italic_ and 'Code' text
-
-[Link](url) and ![image](src)
-```
-
-For more details see [GitHub Flavored Markdown.](https://guides.github.com/features/mastering-markdown/)
-
-## Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in you [repository settings.]() The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-## Support or contact
-
-Having trouble with Pages? Check out our [documentation]() or [contact support]() and we'll help you sort it out.
+Code review of the Farkle artifact:
 
 
 
@@ -73,4 +44,6 @@ To make the code more readable, I formatted the whole thing to follow the same c
 
    The objective I had planned for enhancing this project was to make a create a MongoDB interface that allows users to access and edit a database from their browser. I’m still working on getting the sorting functionality to work how I want it to, but otherwise, I think I’ve completed the goal that I set out to accomplish.
 One of the biggest challenges that I faced while working on the enhancements was that the program relied on a database that I didn’t have access to anymore. To fix this, I had to download MongoDB and setup a local host and database and rewrite parts of the code to make everything it with the new database before I could make any improvements. Another issue I faced was that I couldn’t remember if I used Jupyter Lab or Jupyter Notebook. I guessed wrong and chose Lab to start and lost about an hour trying to find out why my program wasn’t working until I tried Notebook and it worked right away. One thing I learned is that it’s surprisingly easy to set up a database and server using MongoDB. I spent more time troubleshooting the Jupyter Lab vs Notebook issue than setting up the server.
+
+## Self Assessment
 
