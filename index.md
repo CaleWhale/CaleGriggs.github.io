@@ -1,8 +1,6 @@
 # CS 499 Cale Griggs
 
-## Code Review
-
-Code review of the Farkle artifact:
+## Self Assessment
 
 
 
@@ -47,5 +45,6 @@ To make the code more readable, I formatted the whole thing to follow the same c
    The objective I had planned for enhancing this project was to make a create a MongoDB interface that allows users to access and edit a database from their browser. I’m still working on getting the sorting functionality to work how I want it to, but otherwise, I think I’ve completed the goal that I set out to accomplish.
 One of the biggest challenges that I faced while working on the enhancements was that the program relied on a database that I didn’t have access to anymore. To fix this, I had to download MongoDB and setup a local host and database and rewrite parts of the code to make everything it with the new database before I could make any improvements. Another issue I faced was that I couldn’t remember if I used Jupyter Lab or Jupyter Notebook. I guessed wrong and chose Lab to start and lost about an hour trying to find out why my program wasn’t working until I tried Notebook and it worked right away. One thing I learned is that it’s surprisingly easy to set up a database and server using MongoDB. I spent more time troubleshooting the Jupyter Lab vs Notebook issue than setting up the server.
 
-## Self Assessment
+## Code Review:
+
 
