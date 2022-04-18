@@ -2,13 +2,25 @@
 
 ## Self Assessment
 
+When I first started in the computer science program, I knew essentially nothing about programming. I had tried to learn a few times before, but I lacked the structure that comes from school. I also knew that having a degree on my resume would be much better for job applications than a high school diploma, so I applied for SNHU.
 
+My first programming class CS 200 taught me how to write code in Python. I learned the basics of variables, datatypes, arrays, if else statements, various types of loops, and more. This was the class where programming first started to click in my brain and gave me a foothold on the path to understanding how programming works.
+
+IT 312 is the class where I got one of my artifacts from and is what I attribute to being the most impactful class that I took in terms of learning how to write a complete program. This class taught me about taking all the basics I learned in CS 200 and turning that knowledge into a fully functional, standalone program.
+
+Later, I took CS 260, a data structures and algorithms class that taught me about things like linked lists, trees, and hash tables. I learned about many different ways of parsing and sorting through data. Data structures and algorithms are a key part of programming as they provide both structure to the flow of data as well as efficiency to the overall program.
+
+CS 310 is where I learned about git, version control, and collaboration on a group project. In this class I learned about reviewing other people’s code as well as correcting merge conflicts. This class taught me the importance of proper version control and commit protocol and how messy a big team project can get without them.
+
+Another class I had was DAD 220 which taught me about servers and databases and how to directly interface with them using SQL. I later took CS 340 where I learned about interfacing with databases programmatically using Python. Databases are a big part of web applications and these classes taught me how to securely implement ways of communicating with them into a program.
+
+I chose to use the Farkle game from IT 312 for both the software engineering/design and the algorithms/data structures artifact. And the CS 340 final project for the basics of my databases project. I chose these artifacts because I felt they were the best candidates for representing my computer science talents for each of the required categories.
 
 ## [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
 ![image](https://raw.githubusercontent.com/CaleGriggs/CaleGriggs.github.io/gh-pages/Pics/Farkel%20Welcome.png)
 
-   This artifact is called Farkel, it’s a dice rolling game in which one or more players try to score a predetermined number of points based on the dice that they roll. On their turn, each player will roll six dice. If they roll a one, five, three of a kind, or straight of five to six dice in a row, they earn points that add up to their total score. The project was first created for my final project of the IT 312 class that I took in August of 2020.
+   This artifact is a dice rolling game called Farkle. It's a game in which one or more players try to score a predetermined number of points based on the dice that they roll. On their turn, each player will roll six dice. If they roll a one, five, three of a kind, or straight of five to six dice in a row, they earn points that add up to their total score. The project was first created for my final project of the IT 312 class that I took in August of 2020.
    
 ![image](https://raw.githubusercontent.com/CaleGriggs/CaleGriggs.github.io/gh-pages/Pics/Farkle%20Setup.png)
    
