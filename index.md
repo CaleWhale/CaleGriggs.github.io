@@ -6,7 +6,7 @@ Code review of the Farkle artifact:
 
 
 
-## Farkle
+## [Farkle](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/Farkle)
 
 ![image](https://raw.githubusercontent.com/CaleGriggs/CaleGriggs.github.io/gh-pages/Pics/Farkel%20Welcome.png)
 
@@ -30,7 +30,7 @@ To make the code more readable, I formatted the whole thing to follow the same c
    
    The biggest challenge that I faced while modifying the artifact was trying to figure out a good way of calculating the point dice after rerolling. I was trying to find a way to tell when all the dice became point dice so that I could get the player the opportunity to reroll all their dice. I eventually figured out a way to save the dice that the player wanted to keep while disposing and rerolling the rest. One other thing I thought of while working on this artifact was the idea of changing the dice to individual objects comprised of a face value variable and a reroll function, if I were to redo the project completely, I would probably explore that idea further to see if that could help with organizing the project. I also learned is that I tend to waste time trying to find the most efficient solution to a problem. I learned that it’s easier for me to worry less about the efficacy of the program and focus more on the functionality of the program to begin with. After I get everything working, then I can go back an improve the quality of the code and efficiency of the algorithms.
 
-## Database
+## [Database](https://github.com/CaleGriggs/CaleGriggs.github.io/tree/gh-pages/DatabaseProject)
 
 ![image](https://raw.githubusercontent.com/CaleGriggs/CaleGriggs.github.io/gh-pages/Pics/default%20table.png)
 
