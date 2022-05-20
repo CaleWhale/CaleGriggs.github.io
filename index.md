@@ -1,4 +1,4 @@
-## Welcom to my GitHub
+## Welcom to my GitHub.io page
 
 email: <calegriggs@gmail.com>
 
