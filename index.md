@@ -10,9 +10,13 @@ Graduated from Southern New Hampshire University in April 2022 with a Bacelor of
 
 ### Projects:
 
-Not much here as of now. Still working a full-time day job and don't have much time to work on programming projects.
+* [Farkle](https://github.com/CaleGriggs/Farkle)
 
-* [Chess Engine](https://github.com/CaleGriggs/Chess)
+* [Database Project](https://github.com/CaleGriggs/DatabaseProject)
+
+* [Pictures to ASCII](https://github.com/CaleGriggs/JPG_to_ASCII)
+
+* [Chess Engine(WIP)](https://github.com/CaleGriggs/Chess)
 
 
 
