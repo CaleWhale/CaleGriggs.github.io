@@ -8,7 +8,7 @@ Graduated from Southern New Hampshire University in April 2022 with a Bacelor of
 
 
 
-### Projects:
+### Projects From School:
 
 * [Farkle](https://github.com/CaleGriggs/Farkle)
 
